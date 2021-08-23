@@ -206,7 +206,7 @@ transition hover
 }
 
 .bg-img {
-  background-image: url('/images/olga-guryanova-tMFeatBSS4s-unsplash.jpg');
+  background-image: url('images/olga-guryanova-tMFeatBSS4s-unsplash.jpg');
   height: 100%;
   width: 100%;
 }
@@ -221,7 +221,7 @@ transition hover
 }
 
 .bg-img.blurred {
-  background-image: url('/images/bgimgblur.jpg');
+  background-image: url('images/bgimgblur.jpg');
   background-size: cover;
   transition: background-image 200ms linear;
 }
