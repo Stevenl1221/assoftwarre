@@ -1,0 +1,386 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        
+        <script src="shared.js"></script>
+        <script language="javascript" src="contactUs.js"></script>
+        <script src="AC_RunActiveContent.js" language="javascript"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+        <!-- Google Analytics Tracking Enabled Here -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112341248-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-112341248-1');
+        </script>	
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top " style="background-color: white;">
+            <!-- Navbar content -->
+            <div class="container-fluid">
+                <a class="navbar-brand" style= "border-bottom: 1px solid;" href="index.html">
+                    <img src="/images/assoftwarelogo.png" width="60" height="48">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link btn btn-2 newPage" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link btn btn-2 newPage" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link btn btn-2 newPage" href="support.html">Support</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link btn btn-2 newPage" href="testimonials.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle btn btn-2 newPage" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Products
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="obgyn.html">AS-OBGYN</a></li>
+                        <li><a class="dropdown-item" href="asimage.html">AS-IMAGE</a></li>
+                        <li><a class="dropdown-item" href="interfaces.html">AS-INTERFACES</a></li>
+                        <li><a class="dropdown-item" href="vascular.html">AS-VASCULAR</a></li>
+                        <li><a class="dropdown-item" href="radiology.html">AS-RADIOLOGY</a></li>
+                        <li><a class="dropdown-item" href="perinatal.html">AS-PERINATAL EMR</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link btn btn-2 newPage" href="marketContactUs.html">Contact Us</a>
+                    </li>
+                </div>
+              </div>
+        </nav>
+        <img src="/images/contactusbg.jpg" style="width: 100%;">
+
+
+        <!--#include FILE="asInteriorTop.html -->
+<Table class="mainTable" border: 0; align:center cellspacing= 0 cellpadding=0 style="margin-left: auto; margin-right: auto; margin-top: 30px;">
+    <tr><td><br></td></tr>
+        <Tr>
+            <td>
+    <!-- <p style="margin-top:0px"><span class="subHeader">Contact Us</span>
+     
+     
+    <strong>
+     <br>
+    AS Software Inc.<br>
+    560 Sylvan Avenue #2052,	Englewood Cliffs, NJ  07632<br>
+    Phone: 201-541-1900	|	Toll-free: 800-613-4441	|	Fax: 201-541-1199<br>
+    e-mail:  <a href="mailto:info@as-software.com">info@as-software.com</a><br>
+     
+    </strong>
+     
+     </p>
+     
+    <p class="boxContent">Thank you for your interest in AS Software's solutions for structured reporting and image management. 
+    <br>For more information, please complete and submit the form below. We look forward to speaking with you soon!
+    </p>
+      -->
+     
+    
+    <form action="sendContactInfo2.aspx" method="post" name="form1" id="form1" autocomplete="off">
+    <table  cellspacing="10" cellpadding="10" align:center style="width:100%;border:1px solid #696767;">
+    <tr><td style="border:0">
+    <Table class="boxContent" align:center>
+    <!-- <tr>
+        <td colspan=2></td>
+        <td align="right"><div align="right" style=";margin-top:0px;padding:0px"><font color="#FF0000">*</font> <em>Required Fields</em></div></td>
+    </tr> -->
+    <tr>
+        <td>How did you hear about us?</td>
+        <td></td>
+        <td><input type="text"  size="62" maxlength="255" name="How_did_you_hear_about_us"></TD>
+    </tr>
+    <tr>
+        <td>Name of facility, practice, hospital, etc.?</td>
+        <td></td>
+        <td><input type="text"  size="62" maxlength="255" name="Name_of_facility"></TD>
+    </tr>
+    <tr>
+        <td>Name <span style="color:#FF0000;">*</span> </td>
+        <td></td>
+        <td><input type="text"  size="62" maxlength="255" name="Full_Name"></TD>
+    </tr>
+    <!--<tr>
+        <td>Last Name <font color="#FF0000">*</font> </td>
+        <td><img src="Images/spacer.gif" alt="" width="15" border="0"></td>
+        <td><input type="text"  size="30" maxlength="255" name="Last_Name"></TD>
+    </tr>
+    <tr>
+        <td>Title </td>
+        <td><img src="Images/spacer.gif" alt="" width="15" border="0"></td>
+        <td><input type="text"  size="30" maxlength="255" name="Title"></TD>
+    </tr>-->
+    <tr>
+        <td>Email Address <span style="color:#FF0000;">*</span> </td>
+        <td></td>
+        <td><input type="text"  size="62" maxlength="255" name="Email"></TD>
+    </tr>
+    <tr>
+        <td>Address </td>
+        <td></td>
+    <td><input type="text"  size="62" maxlength="255" name="Address1"></TD>
+    </tr>
+    <!-- <tr>
+        <td></td>
+        <td><img src="Images/spacer.gif" alt="" width="15" border="0"></td>
+        <td><input type="text"  size="50" maxlength="255" name="Address2"></TD>
+    </tr> -->
+    <tr>
+        <td>City / State / Zip <span style="color:#FF0000;">*</span> </td>
+        <td></td>
+        <td><input type="text"  size="38" maxlength="150" name="City">
+        <input type="text"  size="2" maxlength="4" name="State">
+        <input type="text"  size="11" maxlength="7" name="Zip" style="margin-left:1px;"></TD>
+    </tr>
+    <!-- <tr>
+        <td>State </td>
+        <td><img src="Images/spacer.gif" alt="" width="15" border="0"></td>
+        <td><input type="text"  size="15" maxlength="255" name="State"></TD>
+    </tr>
+    <tr>
+        <td>Zip <font color="#FF0000">*</font></td>
+        <td><img src="Images/spacer.gif" alt="" width="15" border="0"></td>
+        <td><input type="text"  size="15" maxlength="255" name="Zip"></TD>
+    </tr> -->
+    <tr>
+        <td>Telephone <span style="color:#FF0000;">*</span></td>
+        <td></td>
+        <td><input type="text"  size="15" maxlength="255" name="Phone">
+            Ext: <input type="text" size="3" maxLength = "8" name="Ext"</td>
+        
+        
+    </tr>
+     
+    <tr>
+        <td valign=top style="padding-top:6px;">I am interested in the following:<br>(please check all that apply)</td>
+        <td></td>
+        <td>
+            <table  class="boxContent" >
+            <tr>
+                <Td><input type="checkBox" name="interestedCheckBox" value="OB-GYN"> OB/GYN 	</TD>
+                <Td><input type="checkBox" name="interestedCheckBox" value="MFM"> MFM </TD>
+                <Td><input type="checkBox" name="interestedCheckBox" value="Perinatal"> Perinatal EMR</TD>
+            </tr>
+            <tr>
+                <Td><input type="checkBox" name="interestedCheckBox" value="Vascular"> Vascular	 </TD>
+                <Td><input type="checkBox" name="interestedCheckBox" value="Radiology"> Radiology	 </TD>
+                <Td><input type="checkBox" name="interestedCheckBox" value="Interfaces"> Interfaces </TD>
+            </tr>
+            <tr>
+                <Td><input type="checkBox" name="interestedCheckBox" value="Reporting"> Reports </TD>
+                <Td><input type="checkBox" name="interestedCheckBox" value="Image Management"> Image Management </TD>
+                <Td><input type="checkBox" name="interestedCheckBox" value="Other"> Other (Describe Below)</TD>
+            </tr>
+            </table>
+        </td>	
+    </tr>
+    <tr>
+        <td valign=top>Comments/Questions/Requests?</td>
+        <td></td>
+        <Td><textarea name="Comments" rows="5" cols="46" style="resize:none; width:100%;"></textarea></TD> 
+    </tr>
+
+        <tr><td></td>
+        <td></td>
+        <td><table style="width:100%;"><tr><td>
+        <div class="g-recaptcha" data-sitekey="6LdInVobAAAAAHYiDxiyS3UlPuqQ6EXbQWo29AJh" style="transform:scale(1);-webkit-transform:scale(1);
+                transform-origin:0;-webkit-transform-origin:0 0; margin-top: 2px;"></div></td><td style="width:100%;"><div style="display: flex; justify-content:center; width:100%;"><input type="button" value="Submit" onClick="resetColors();submitIt();" style="margin-top:2px; display:flex;"></div></td></tr></table></td> 
+        </tr>
+     
+    </table>
+    </td></tr>
+     
+        </table>
+    </form>
+     <script>/*endSearch*/</script>
+    <script type="text/javascript"> 
+     
+        function setEmphasis()
+        {
+            for(var i = 0;i < form1.elements.length;i++)
+            {
+                form1.elements[i].style.background = 'White';
+            }
+        }
+        function resetColors()
+        {
+                
+                form1.Full_Name.style.background = 'White';
+
+                form1.Email.style.background = 'White';
+                form1.Zip.style.background = 'White';
+                form1.Phone.style.background = 'White';
+        }
+     
+        function submitIt()
+        {
+            var errorMsg = "";
+            if(validateUsername(document.form1.Full_Name))
+                errorMsg += "Please enter your Name\n"
+            if(validateEmail(document.form1.Email))
+                errorMsg += "Please enter a valid Email Address\n"
+            if(validatePhone(document.form1.Phone))
+                errorMsg += "Please enter your full Phone Number\n"
+            if(validateExt(document.form1.Ext))
+                errorMsg += "Please enter a numeric Extension\n"
+              if (validateCaptcha(grecaptcha.getResponse())) 
+                errorMsg += "Please check Box \"I\'m not a robot\"\n"
+    
+            if(errorMsg.length == 0)
+                document.form1.submit();
+            else alert(errorMsg)
+        }
+        
+        
+    function validateZip(fld) {
+        var error = "";
+        var stripped = fld.value.replace(/[\(\)\.\-\ ]/g, '');     
+     
+       if (fld.value == "") {
+            error = "You didn't enter a phone number.\n";
+            fld.style.background = 'Yellow';
+        } else if (isNaN(parseInt(stripped))) {
+            error = "The phone number contains illegal characters.\n";
+            fld.style.background = 'Yellow';
+        } else if (stripped.length < 5 || stripped.length > 10) {
+            error = "The phone number is the wrong length. Make sure you included an zip code.\n";
+            fld.style.background = 'Yellow';
+        } 
+        return error;
+    }
+     
+     
+    function validateExt(fld) {
+        var error = "";
+        var stripped = fld.value.replace(/[\(\)\.\-\ ]/g, ''); 
+          
+      var objRegExp  = /^[0-9,-]+$/;
+     
+           if (!objRegExp.test(fld.value) && fld.value.length > 0){
+            error = "The phone number contains illegal characters.\n";
+            fld.style.background = 'Yellow';
+        } 
+        
+        return error;
+    }
+        
+    function validatePhone(fld) {
+        var error = "";
+        var stripped = fld.value.replace(/[\(\)\.\-\ ]/g, ''); 
+          
+       var objRegExp  = /^[0-9\)\(\. ,-]+$/;
+       if (fld.value == "") {
+            error = "You didn't enter a phone number.\n";
+            fld.style.background = 'Yellow';
+        } else if (!objRegExp.test(fld.value)){
+            error = "The phone number contains illegal characters.\n";
+            fld.style.background = 'Yellow';
+        } else if (stripped.length < 10 || stripped.length > 20) {
+            error = "The phone number is the wrong length. Make sure you included an area code.\n";
+            fld.style.background = 'Yellow';
+        } 
+        return error;
+    }
+        
+    function trim(s)
+    {
+      return s.replace(/^\s+|\s+$/, '');
+    } 
+     
+    function validateEmail(fld) {
+        var error="";
+        var tfld = trim(fld.value);                        // value of field with whitespace trimmed off
+        var emailFilter = /^[^@]+@[^@.]+\.[^@]*\w\w$/ ;
+        var illegalChars= /[\(\)\<\>\,\;\:\\\"\[\]]/ ;
+        
+        if (fld.value == "") {
+            fld.style.background = 'Yellow';
+            error = "You didn't enter an email address.\n";
+        } else if (!emailFilter.test(tfld)) {              //test email for illegal characters
+            fld.style.background = 'Yellow';
+            error = "Please enter a valid email address.\n";
+        } else if (fld.value.match(illegalChars)) {
+            fld.style.background = 'Yellow';
+            error = "The email address contains illegal characters.\n";
+        } else {
+            fld.style.background = 'White';
+        }
+        return error;
+    }function validateUsername(fld) {
+        var error = "";
+        var illegalChars = /\W/; // allow letters, numbers, and underscores
+     
+        if (fld.value == "") {
+            fld.style.background = 'Yellow'; 
+            error = "You didn't enter a username.\n";
+        } else {
+            fld.style.background = 'White';
+        } 
+        return error;
+    }
+    function validateCaptcha(cr){
+        var error = "";
+        if (!cr) {
+            error = "error CAPTCHA not set.\n";
+        }
+        return error;
+    }   
+    </script>    
+    </td>
+        </TR>
+        
+        </TABLE></TD></tr>
+            
+            <Tr><td>
+    <br>
+
+        <div class="footer-basic" style="background-color: rgb(230, 230, 230); margin-top:100px;">
+            <footer>
+                <ul class="list-inline" style="color:rgb(36, 36, 36); font-size:16px;">
+                    <li class="list-inline-item" style="text-decoration:underline;"><a href="index.html">Home</a></li>
+                    <li class="list-inline-item" style="text-decoration:underline;"><a href="careers.html">Careers</a></li>
+                    <li class="list-inline-item" style="text-decoration:underline;"><a href="sitemap.html">Site Map</a></li>
+                    <li class="list-inline-item" style="text-decoration:underline;"><a href="terms.html">Terms</a></li>
+                    <li class="list-inline-item" style="text-decoration:underline;"><a href="privacy.html">Privacy Policy</a></li>
+                    <li class="list-inline-item" style="text-decoration:underline;"><a href="marketContactUs.html">Contact Us</a></li>
+                </ul>
+                <p class="copyright" style="font-size: smaller; color:rgb(129, 129, 129)">© 1991- 2021 AS Software Inc. All Rights Reserved</p>
+                <ul class="list-inline" style="margin-top: 30px;">
+                <li class="list-inline-item"><a href="#"></a><img src="images/Cert_Partner_rgb_6.png"></li>
+                <li class="list-inline-item"><a href="#"></a><img src="images/SMFM-LOGO-png-final.png" height="50" width="138"></li>
+                <li class="list-inline-item"><a href="#"></a><img src="images/banner8.png" height="65" width="138"></li>
+                <li class="list-inline-item"><a href="#"></a><img src="images/aiumSiteLogo_New.png" height="70" width="138"></li>
+                <li class="list-inline-item"><a href="#"></a><img src="images/rsna.png" height="50" width="160"></li>
+                <li class="list-inline-item"><a href="#"></a><img src="images/svs.png" height="50" width="185"></li>
+                </ul>
+            </footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+            <script>
+            $(window).scroll(function(){
+                $('nav, a, li').toggleClass('scrolled', $(this).scrollTop() > 1);
+                $('body').toggleClass('blurred', $(this).scrollTop() > 1);
+
+            });
+            </script>
+        </div>
+    </body>
+</html>
